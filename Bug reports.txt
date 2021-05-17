@@ -1,0 +1,4 @@
+ПроектWeb form testingКороткое описаниеПоле Password не обязательно заполнять для успешного прохождения веб-формыОкружениеWindows 10; Google Chrome version 90.0.4430.212Серьезность (severity)Значительный (Major)Приоритет (priority)Высокий (High)Статус Новая АвторХолкина ЕленаШаги воспроизведения1) открыть ссылку на веб-форму http://itcareer.pythonanywhere.com 
+2) Заполнить поля Name, Surname, Email валидными данными
+3) Поле Password оставить пустым
+4) Нажать кнопку SubmitОжидаемый результатВывод сообщения: “Error: Password field is required”Фактический результатВывод сообщения: “Success! Hello: Name Surname”, где Name и Surname имеют введенные в соответствующие поля значения.
